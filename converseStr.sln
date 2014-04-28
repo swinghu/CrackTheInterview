@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "converseStr", "converseStr\converseStr.vcxproj", "{417258B7-CA06-459E-B3D7-3EF227495519}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverseStr", "converseStr\converseStr.vcxproj", "{417258B7-CA06-459E-B3D7-3EF227495519}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compressString", "compressString\compressString.vcxproj", "{C4BFF542-6126-4A43-B428-5F4E38257B44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uniString", "uniString\uniString.vcxproj", "{36238C68-7498-4293-912A-C9CF7F49BF04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C4BFF542-6126-4A43-B428-5F4E38257B44}.Debug|Win32.Build.0 = Debug|Win32
 		{C4BFF542-6126-4A43-B428-5F4E38257B44}.Release|Win32.ActiveCfg = Release|Win32
 		{C4BFF542-6126-4A43-B428-5F4E38257B44}.Release|Win32.Build.0 = Release|Win32
+		{36238C68-7498-4293-912A-C9CF7F49BF04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36238C68-7498-4293-912A-C9CF7F49BF04}.Debug|Win32.Build.0 = Debug|Win32
+		{36238C68-7498-4293-912A-C9CF7F49BF04}.Release|Win32.ActiveCfg = Release|Win32
+		{36238C68-7498-4293-912A-C9CF7F49BF04}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
