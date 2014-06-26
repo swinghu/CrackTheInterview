@@ -14,7 +14,7 @@
     <ProjectGuid>{36238C68-7498-4293-912A-C9CF7F49BF04}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>uniString</RootNamespace>
-    <ProjectName>uniqueString</ProjectName>
+    <ProjectName>chapter01-01-uniqueString</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
