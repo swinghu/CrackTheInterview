@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7AEFEA94-C724-4B57-8679-282A0E86436F}</ProjectGuid>
+    <ProjectGuid>{67A923F5-85C5-4DDA-9039-F4C4552DA418}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>chapter01_03_judge_permutation</RootNamespace>
-    <ProjectName>chapter01-03-judge-permutation</ProjectName>
+    <RootNamespace>chapter0104replaceblankcharacter</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PermutationJudge.cpp" />
+    <ClCompile Include="ReplaceCharacter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
