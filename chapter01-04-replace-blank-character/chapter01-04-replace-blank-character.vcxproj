@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C4BFF542-6126-4A43-B428-5F4E38257B44}</ProjectGuid>
+    <ProjectGuid>{67A923F5-85C5-4DDA-9039-F4C4552DA418}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>compressString</RootNamespace>
-    <ProjectName>chapter01-05-compressString</ProjectName>
+    <RootNamespace>chapter0104replaceblankcharacter</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,10 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="sw_assert.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="compressString.cpp" />
+    <ClCompile Include="ReplaceCharacter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
