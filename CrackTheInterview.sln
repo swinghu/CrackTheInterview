@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter01-other-FindFirstRe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter01-other-FIndSmallest", "chapter01-other-FIndSmallest\chapter01-other-FIndSmallest.vcxproj", "{204AE2A8-A607-4706-8B3B-EBE5AB79D783}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter01_other__8puzzleissolvable", "chapter01_other__8puzzleissolvable\chapter01_other__8puzzleissolvable.vcxproj", "{D19AC9C2-4A55-41E4-9745-F09921993CFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,16 @@ Global
 		{204AE2A8-A607-4706-8B3B-EBE5AB79D783}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{204AE2A8-A607-4706-8B3B-EBE5AB79D783}.Release|Win32.ActiveCfg = Release|Win32
 		{204AE2A8-A607-4706-8B3B-EBE5AB79D783}.Release|Win32.Build.0 = Release|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Debug|Win32.Build.0 = Debug|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Release|Win32.ActiveCfg = Release|Win32
+		{D19AC9C2-4A55-41E4-9745-F09921993CFA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
