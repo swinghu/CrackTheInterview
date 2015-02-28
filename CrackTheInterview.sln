@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutation", "Permutation\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memorycopy", "memorycopy\memorycopy.vcxproj", "{DA1112D9-6A92-4FFE-BA2B-783059EA89C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter01-other-removeDuplicated", "chapter01-other-removeDuplicated\chapter01-other-removeDuplicated.vcxproj", "{D9579C70-0632-4E2D-B4DB-8B988107B178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,16 @@ Global
 		{DA1112D9-6A92-4FFE-BA2B-783059EA89C7}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{DA1112D9-6A92-4FFE-BA2B-783059EA89C7}.Release|Win32.ActiveCfg = Release|Win32
 		{DA1112D9-6A92-4FFE-BA2B-783059EA89C7}.Release|Win32.Build.0 = Release|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Debug|Win32.Build.0 = Debug|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Win32.ActiveCfg = Release|Win32
+		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
