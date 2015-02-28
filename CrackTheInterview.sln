@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter01-02-reverseStr", "converseStr\converseStr.vcxproj", "{417258B7-CA06-459E-B3D7-3EF227495519}"
 EndProject
@@ -26,6 +26,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memorycopy", "memorycopy\memorycopy.vcxproj", "{DA1112D9-6A92-4FFE-BA2B-783059EA89C7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter01-other-removeDuplicated", "chapter01-other-removeDuplicated\chapter01-other-removeDuplicated.vcxproj", "{D9579C70-0632-4E2D-B4DB-8B988107B178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数组Array", "数组Array", "{846346BB-ED52-41D6-816A-DCCF320762EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearchRotatedArray", "BinarySearchRotatedArray\BinarySearchRotatedArray.vcxproj", "{9D56EE08-F8D4-4276-A1ED-534390AED152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,8 +161,21 @@ Global
 		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Win32.ActiveCfg = Release|Win32
 		{D9579C70-0632-4E2D-B4DB-8B988107B178}.Release|Win32.Build.0 = Release|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Debug|Win32.Build.0 = Debug|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Release|Win32.ActiveCfg = Release|Win32
+		{9D56EE08-F8D4-4276-A1ED-534390AED152}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D56EE08-F8D4-4276-A1ED-534390AED152} = {846346BB-ED52-41D6-816A-DCCF320762EA}
 	EndGlobalSection
 EndGlobal
