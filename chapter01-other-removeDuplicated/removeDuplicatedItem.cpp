@@ -8,8 +8,16 @@ and return the new length.
 Do not allocate extra space for another array, you must do this in place with constant memory.
 For example, Given input array A = [1,1,2],
 Your function should return length = 2, and A is now [1,2].
-
 */
+
+/********************************************************************
+ Copyright (C), 2012-2013,
+ FileName: removeDuplicatedItem.
+ Description:
+ Author: swinghu
+ Created: 2015/02/28
+ history: 28:2:2015 11:34 by
+*********************************************************************/
 
 int removeDuplicates(int A[], int n)
 {
@@ -22,6 +30,15 @@ int removeDuplicates(int A[], int n)
 			A[++index] = A[i];
 	}
 	return index + 1;
+}
+
+/*
+	如果删除的元素允许最多重复两次
+*/
+
+int removeDuplicates2(int A[], int n)
+{
+
 }
 int main()
 {
