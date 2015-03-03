@@ -38,7 +38,17 @@ int removeDuplicates(int A[], int n)
 
 int removeDuplicates2(int A[], int n)
 {
+	if (n <= 2) return n;
 
+	int index = 2;
+	for (int i = 2; i < n;i++)
+	{
+		if (A[i] != A[i-2])
+		{
+			A[index++] = A[i];
+		}
+	}
+	return index;
 }
 int main()
 {
@@ -48,7 +58,6 @@ int main()
 	for (int i = 0; i < res; i++)
 	{
 		printf("%d", A[i]);
-
 	}
 	return 0;
 }

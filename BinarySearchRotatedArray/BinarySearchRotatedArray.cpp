@@ -25,12 +25,12 @@ You may assume no duplicate exists in the array
 #include <string.h>
 
 /*
-	pivot search
+	pivot search 不允许元素重复
 */
 int search(int A[], int n, int target)
 {
 	int first = 0, last = n;
-	while (first != last)
+	while (first != last)	//二分查找退出的判断条件
 	{
 		const int mid = first + (last - first) / 2;
 		if (A[mid] == target)
@@ -53,6 +53,53 @@ int search(int A[], int n, int target)
 	}
 	return -1;
 }
+
+
+/* 
+允许元素重复的pivot二分查找 ,判断是否存在该元素，存在返回true，否则false
+*/
+
+int search_duplicated(int A[], int n, int target)
+{
+	int first = 0, last = n;
+	while (first != last)
+	{
+		const int mid = first + (last - first) / 2;
+		if (A[mid]== target)
+		{
+			return true;
+		}
+		if (A[first] < A[mid])
+		{
+			if (A[first] <= target && target < A[mid])
+			{
+				last = mid;
+			}
+			else
+			{
+				first = mid + 1;
+			}
+		}
+		else if (A[first] <A[mid])
+		{
+			if (A[mid]< target && target <=A[last-1])
+			{
+				first = mid + 1;
+			}
+			else
+			{
+				last = mid;
+			}
+		}
+		else
+		{
+			// 确定不了
+			first++;
+		}
+
+	}
+}
+
 
 // 普通二分查找
 
